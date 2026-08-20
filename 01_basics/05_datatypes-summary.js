@@ -35,3 +35,27 @@ console.log(typeof myFunction);
 
 // typeof
 // score:Number , scoreValue:Number , isLogged:boolean , outsideTemp:object , anotherId:symbol bigNumber:bigint , Heros:object , myObject:object , myFunction:function
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive data type) and Heap (non primitive data type)
+
+let name="Shanu"
+let anotherName=name
+
+anotherName="Shanu Garg"
+
+console.log(name)
+console.log(anotherName)
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo=userOne
+
+userTwo.email="Shanu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
